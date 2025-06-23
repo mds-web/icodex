@@ -4,7 +4,7 @@
   // db.js
   
   // Nama database dan store utama untuk proyek
-  const DB_NAME = 'Editor_code3';
+  const DB_NAME = 'Editor_code5';
   const PROJECT_STORE_NAME = 'projects';
   const DB_VERSION = 20;
   const TREE_STORE_NAME = 'Tree';
