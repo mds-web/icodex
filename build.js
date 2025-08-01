@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-  
+  alert()
   // db.js
   
   // Nama database dan store utama untuk proyek
