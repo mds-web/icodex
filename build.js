@@ -2486,6 +2486,7 @@ if (clicked.id === 'rename-file') {
       const refreshedTree = this.renderTree();
       this._replaceTree(refreshedTree);
       this.#reopenFolders(openPaths);
+      console.log(openPaths)
     }
     
     #refreshAndSave(rootProject) {
