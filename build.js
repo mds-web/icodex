@@ -2384,10 +2384,10 @@ if (clicked.id === 'rename-file') {
         const nameEl = dir.querySelector('.directory-name');
         const contentEl = dir.querySelector('.directory-content');
         if (!nameEl || !contentEl) return;
-        
+        console.log(paths)
         const fullPath = this.#getFullPath(nameEl);
         if (paths.includes(fullPath)) {
-          nameEl.classList.add('open');
+          nameEl.classList.add('openi');
           contentEl.classList.add('open');
         }
       });
