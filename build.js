@@ -3630,11 +3630,7 @@ IcodexEditor.loadPlugins = async function (list = [], basePath = '/plugins') {
     await loadOpenTabs();
     
     
-    IcodexEditor.loadPlugins([
-      'Clipboard.js',
-    
-     ]);
-     
+  
      function updateVh() {
   const vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
